@@ -2,8 +2,9 @@
 Mutation generation script provided by our work "Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs"
 
 ## Requirements
-Python >= 3.8 
-Yosys >= 0.58 (git sha1 157aabb58)
+
+* Python >= 3.8 
+* Yosys >= 0.58 (git sha1 157aabb58)
 
 ## Usage
 
