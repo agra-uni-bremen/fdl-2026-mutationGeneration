@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: Module-granular Mutation Generation for RTL
+message: >-
+  If you want to cite this repository, please use the metadata from this file and the citation provided in the README.
+type: software
+authors:
+  - given-names: Sallar
+    family-names: Ahmadi-Pour
+    email: sallar@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0003-4000-6207'
+  - given-names: Luca
+    family-names: Müller
+    email: Luca.Mueller@dfki.de
+    affiliation: DFKI GmbH
+    orcid: 'https://orcid.org/0009-0000-5001-5241'
+  - given-names: Rolf
+    family-names: Drechsler
+    email: drechsler@uni-bremen.de
+    affiliation: University of Bremen
+    orcid: 'https://orcid.org/0000-0002-9872-1740'
+identifiers:
+  - type: doi
+    value: 
+    description: >-
+      Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs
+      With the growing complexity of modern Integrated Circuits (ICs), cross-level verification increasingly relies on multiple coverage metrics to assess verification progress and quality. While Virtual Prototypes (VPs) enable efficient verification across abstraction layers, the impact of verification parameters on bug-finding effectiveness remains poorly understood. This work presents an exploratory analysis of verification parameters in a Constrained Random Verification (CRV)-based cross-level setup. Using a RISC-V Register-Transfer Level (RTL) implementation and a binary-compatible VP, we systematically explore a parameterized CRV-based verification flow, varying instruction sequence length, mutation location, and mutation count, and assess their impact using mutation, functional, and code coverage metrics. Our results show that different coverage metrics exhibit distinct saturation behaviors as verification parameters are varied. In particular, mutation coverage continues to reveal bug-finding effectiveness in scenarios where functional and code coverage stabilize, highlighting the importance of cross-checking trends across multiple metrics rather than maximizing individual coverage values in isolation.
+
+repository-code: 'https://github.com/agra-uni-bremen/fdl-2026-mutationGeneration'
+abstract: >-
+  Exploring the Parameter Space for Constrained Random Verification of RISC-V CPUs
+license: MIT
